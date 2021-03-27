@@ -1,5 +1,5 @@
-## Docker Command
-**Example Dockerfile**
+## Building Docker Image from Scratch
+
 ```
 FROM alpine:3.11
 RUN apk add openjdk8
@@ -22,7 +22,10 @@ ENTRYPOINT ["/opt/tomcat/bin/catalina.sh", "run"]
 ```
 This file install Java + Tomcat + Alpine (Linux Distribution)
 
-### Dockerfile with Tomcat
+### Building Docker Image from existing templates
+
+For existing Docker images, refer the [Docker Hub Official Website](https://hub.docker.com/)
+
 ```
 FROM tomcat:jdk8-openjdk-slim
 COPY /target/spring-h2-demo.war /usr/local/tomcat/webapps
