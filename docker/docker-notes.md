@@ -103,7 +103,7 @@ Docker basic Commands
 --> docker ps
 
 6.Check what are the container we have (inactive container)
-
+ 
 --> docker ps -a
 
 7.Stop container
