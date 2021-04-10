@@ -63,6 +63,9 @@ docker rm -f $(docker ps -aq)
 
 // Remove Docker image
 docker image rm -f <IMAGE_ID>
+
+//copy file current to host
+docker cp <path of src> <containerID>:<path of the server>
 ```
 
 ### Command Samples
