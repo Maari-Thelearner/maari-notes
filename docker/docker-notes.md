@@ -77,3 +77,53 @@ docker run -p 8080:8080 mari-artifact
 
 docker run -p 8080:8080 -d mari-artifact 
 ```
+
+
+
+Docker basic Commands
+
+1.Pulling image from docker hub:
+
+--> docker pull <ImageName>
+
+2.Create a Custom Image from Dockerfile
+
+--> docker build -t <ImageName(U can give any name)> [Path of the Dockerfile]
+
+3.Create and run a Container from image
+
+--> docker run -p 8080:<PortNo of that image> <ContainerID>
+
+4.Check what are the images we have
+
+--> docker images
+
+5.Check what are the container we have
+
+--> docker ps
+
+6.Check what are the container we have (inactive container)
+
+--> docker ps -a
+
+7.Stop container
+
+--> docker stop <ContainerID>
+
+8.Delete container
+
+--> docker rm -f <containerID>
+
+9. Delete Image
+
+--> docker rm -f <ImageID> (or) docker rmi <ImageID>
+
+Delete image only the container of that image is not in active
+
+10. Check version of Docker
+
+--> docker --version
+
+11. Copy file from local to host directory
+
+--> docker cp [path of local file] <ContainerID>:[Path location of that Container]
