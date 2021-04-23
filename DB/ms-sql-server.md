@@ -111,3 +111,4 @@ namespace StudentManagement
   </connectionStrings>
 </configuration>
 ```
+[To know about connecting sql server with asp.net core mvc project](https://www.youtube.com/watch?v=okFhnAGNYYY&ab_channel=OktaDev)
