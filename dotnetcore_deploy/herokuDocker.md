@@ -109,7 +109,7 @@ public static IHostBuilder CreateHostBuilder(string[] args) =>
 
 	docker build -t {Appname} {PATH_OF_PUBLISH_FOLDER}
 ```
-	***Note: Appname is Heroku created Appname***
+***Note: Appname is Heroku created Appname***
 
 10. ***Create container tag for image***
 	
@@ -123,7 +123,7 @@ public static IHostBuilder CreateHostBuilder(string[] args) =>
 	heroku container:release web --app {Appname}
 ```
 
-	Click Open app in your heroku console page to check it is deploy...
+Click Open app in your heroku console page to check it is deploy...
 
 
 ***Thats it Deploy Process is done...***
