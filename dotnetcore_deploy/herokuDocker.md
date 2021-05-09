@@ -97,7 +97,7 @@ public static IHostBuilder CreateHostBuilder(string[] args) =>
  ```bash
  		dotnet publish {solutionfilePATH} -c Release
  ```
- 	after creating the publish folder then cut the Dockerfile which we created already and paste it in publish folder which we created now
+ after creating the publish folder then cut the Dockerfile which we created already and paste it in publish folder which we created now
 
  9. ***Create a Dockerimage for Deploy**
 
