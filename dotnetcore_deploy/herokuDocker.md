@@ -99,7 +99,7 @@ public static IHostBuilder CreateHostBuilder(string[] args) =>
  ```
  after creating the publish folder then cut the Dockerfile which we created already and paste it in publish folder which we created now
 
- 9. ***Create a Dockerimage for Deploy**
+ 9. ***Create a Dockerimage for Deploy***
 
  	Run this command
 ```bash
